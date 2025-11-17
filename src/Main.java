@@ -7,7 +7,7 @@ import org.json.JSONObject;
 
 public class Main {
 
-    private static final String API_KEY = "856ab6d6e3b48461d192b03b";
+    private static final String API_KEY = System.getenv("EXCHANGE_API_KEY");
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     public static void main(String[] args) {
